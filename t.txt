@@ -1,0 +1,99 @@
+[33mcommit 256e3283704806c645b89e2bc65f37fdaefbd6a2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: h0iga3shi13 <easton3.h@gmail.com>
+Date:   Mon Jun 8 08:19:02 2020 +0900
+
+    git statusコマンドを追記
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 40ca516..b1098fa 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -3,3 +3,4 @@[m [mGitの練習をしていきます。[m
+ ・git add[m
+ ・git commit[m
+ ・git rm[m
+[32m+[m[32m・git status[m
+
+[33mcommit 7890ac0eecbc80547e40c14f14c57633ebf12e43[m
+Author: h0iga3shi13 <easton3.h@gmail.com>
+Date:   Mon Jun 8 00:42:24 2020 +0900
+
+    複数ファイルのコミット
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex c37367a..40ca516 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -2,3 +2,4 @@[m [mGitの練習をしていきます。[m
+ 基本的なワークフローを学びます。[m
+ ・git add[m
+ ・git commit[m
+[32m+[m[32m・git rm[m
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4d9b35a[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m新規作成したファイル[m
+
+[33mcommit 395722043167addaf24e43fc5b17852ff7b50c44[m
+Author: h0iga3shi13 <easton3.h@gmail.com>
+Date:   Mon Jun 8 00:39:54 2020 +0900
+
+    second.txtの削除
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mdeleted file mode 100644[m
+[1mindex 23efd19..0000000[m
+[1m--- a/second.txt[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-追加したファイル[m
+
+[33mcommit 6662462946bcdf644a79b001c11ac923d8732124[m
+Author: h0iga3shi13 <easton3.h@gmail.com>
+Date:   Mon Jun 8 00:33:25 2020 +0900
+
+    second.txtの削除
+
+[1mdiff --git a/second.txt b/second.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..23efd19[m
+[1m--- /dev/null[m
+[1m+++ b/second.txt[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32m追加したファイル[m
+
+[33mcommit 8d720e7fb09602a422e9a9fdec487a6e0556f30b[m
+Author: h0iga3shi13 <easton3.h@gmail.com>
+Date:   Mon Jun 8 00:26:32 2020 +0900
+
+    add, commitのコマンドを追記
+    
+    講座3-4を受講したか
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mindex 802968d..c37367a 100644[m
+[1m--- a/first.txt[m
+[1m+++ b/first.txt[m
+[36m@@ -1,2 +1,4 @@[m
+ Gitの練習をしていきます。[m
+ 基本的なワークフローを学びます。[m
+[32m+[m[32m・git add[m
+[32m+[m[32m・git commit[m
+
+[33mcommit d6df74cf2c86598bd0ab649ae1b9c00a6dd62c2a[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: h0iga3shi13 <easton3.h@gmail.com>
+Date:   Mon Jun 8 00:06:55 2020 +0900
+
+    initial commit
+
+[1mdiff --git a/first.txt b/first.txt[m
+[1mnew file mode 100644[m
+[1mindex 0000000..802968d[m
+[1m--- /dev/null[m
+[1m+++ b/first.txt[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32mGitの練習をしていきます。[m
+[32m+[m[32m基本的なワークフローを学びます。[m
